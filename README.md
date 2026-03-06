@@ -129,17 +129,3 @@ Each debate is saved to `logs/debate_app_<date>_<time>_<uuid>.log`. Each entry i
 ```
 
 ---
-
-## My Learnings and Notes
-
-Goals and context are separate. Goals can be shared between agents depending on the task, which can communicate collaboration or opposition. Context can consist of background and placement. Imagine you are briefing someone on a meeting right before they enter the room. They must know how they are being perceived first, then how to position themselves.
-
-Scaling Agentic Systems for Production: Data Quality, Curation, Governance, Trust, and Reliable Behavior
-The scaling challenge is framed clearly: turning multi-agent prototypes into industrial, production-grade applications requires far more than experimenting with a framework. While high-quality prompting is foundational, enterprises need controlled, reliable behavior—not stochastic, unmanaged responses—especially when agents interact with internal users and customers.
-
-Four major scaling themes are emphasized:
-
-Data quality: Whether training models or using retrieval-augmented generation (RAG), inconsistent or poor data leads to unpredictable or incorrect agent behavior.
-Data curation: Selecting, organizing, and refining what the system uses so it can answer reliably and reduce errors. This includes “curating questions to minimize errors,” meaning routing queries to the right agents and building curated knowledge/FAQ resources.
-Governance by design: Policy, oversight, and controls must be built in from the start—not bolted on after experimentation.
-Trust at scale: As deployments grow toward enterprise and internet levels, organizations must consistently deliver trustworthy outcomes.
